@@ -14,17 +14,18 @@ body {
 
 a {
     text-decoration: none;
-    /* color: yellow; */
+    color: yellow;
 }
 
 .top-menu {
     /* padding: 10vh; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    background-image: url(../img/reggae-background2.jpg);
+    /* justify-content: center; */
+    background-image: url(../img/1-background.png);
     background-size: contain;
-    /* align-items: center; */
+    background-repeat: repeat-x;
+    align-items: center;
     /* flex-direction: initial; */
     /* vertical-align: top; */
     /* align-items: middle; */
