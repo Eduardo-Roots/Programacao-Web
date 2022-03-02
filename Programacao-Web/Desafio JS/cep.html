@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEP</title>
+
+    <script src="js/script-cep.js" type='module' defer></script>
+
+    <script src="https://kit.fontawesome.com/ef4bda2c1c.js" crossorigin="anonymous"></script>
+
+    <!-- CSS BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- JS BOOTSTRAP -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-secondary">
+
+    <div class="container-fluid">
+        <header id="home">
+            <div class="container-fluid p-3 mb-2">
+
+                <div class="card bg-primary">
+
+                    <div class="align-self-center display-3 d-flex fles-wrap text-center">
+                        <div class=".title">
+                            <span class="text-warning display-2 px-5">Ferr<i class="fa-solid fa-cog fa-spin"></i></span>
+                        </div>
+
+                    </div>
+
+                    <div class="card-body">
+                        <nav
+                            class="navbar navbar-expand-lg navbar-light bg-warning text-dark  nav-pills flex-column flex-sm-row">
+
+                            <a class="flex-sm-fill text-sm-center nav-link" href="index.html">Central</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href="sorteio.html">Sorteio</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href="agenda.html">Agenda</a>
+                            <a class="flex-sm-fill text-sm-center nav-link active" href="cep.html">CEP</a>
+                        </nav>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </header>
+    </div>
+
+    <div class="container mt-5 text-sm-center">
+        <i class="text-sm-center display-1 fa-solid fa-envelopes-bulk fa-flip"
+            style="--fa-flip-x: 1; --fa-flip-y: 0; --fa-animation-duration: 3s;"></i>
+        <h1 class="display-4 py-2">Verifique o CEP</h1>
+
+        <div class="container py-3 bg-primary text-secondary">
+
+            <form id="form-task" class="text-sm-left">
+
+
+                <input class="text-primary text-sm-center" type="text" name="cep" id="cep" placeholder="Digite o CEP"
+                    required>
+
+
+                <span
+                    style="border-style: solid; border-radius: 5px; border-color: rgb(255, 196, 0); padding-inline: 3px; padding-block: 2px; margin-left: 10px; pointer-events: none;"
+                    class="text-dark bg-warning">Verificar</span>
+
+            </form>
+
+            <div class="container-fluid my-4 bg-warning p-5 text-dark text-sm-center d-inline-flex d-flex">
+                <div class="p-3">
+                    <label for="endereco">Endereço</label>
+                    <input class="text-primary text-sm-center" type="text" name="endereco" id="endereco"
+                        placeholder="Endereço" required>
+                </div>
+                <div class="p-3">
+                    <label for="bairro">Bairro</label>
+                    <input class="text-primary text-sm-center" type="text" name="bairro" id="bairro"
+                        placeholder="Bairro" required>
+                </div>
+                <div class="p-3">
+                    <label for="cidade">Cidade</label>
+                    <input class="text-primary text-sm-center" type="text" name="cidade" id="cidade"
+                        placeholder="Cidade" required>
+                </div>
+                <div class="p-3">
+                    <label for="estado">Estado</label>
+                    <input class="text-primary text-sm-center" type="text" name="estado" id="estado"
+                        placeholder="Estado" required>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div id="info" class="card text-center my-5">
+
+            <div class="card-body bg-primary text-light">
+                <b>Eduardo Roots &#169 2022 </b> <br>
+                <span> Todos os direitos reservados</span>
+                <div class="my-2">
+                    <lo>
+                        <li class="fa-layers fa-fw">
+                            <a href="https://t.me/rootsblackpower" target="_blank" title="Me dê oi no Telegram">
+                                <i class="fa-brands fa-telegram text-warning"></i>
+                            </a>
+                        </li>
+
+                        <li class="fa-layers fa-fw">
+                            <a href="https://wa.me/5599992314238?text=Oi%20Eduardo,%20" target="_blank"
+                                title="Me dê um oi no WhatsApp">
+                                <i class="fa-brands fa-whatsapp text-warning"></i>
+                            </a>
+                        </li>
+
+                        <li class="fa-layers fa-fw">
+                            <a href="https://pt-br.facebook.com/" target="_blank" title="FaceBook">
+                                <i class="fa-brands fa-facebook text-warning"></i>
+                            </a>
+                        </li>
+
+                        <li class="fa-layers fa-fw">
+                            <a href="https://www.youtube.com/channel/UC7rwtdOjFDeH44zNxrQy65w" target="_blank"
+                                title="Meu canal do YouTube">
+                                <i class="fa-brands fa-youtube text-warning"></i>
+                            </a>
+                        </li>
+
+                        <li class="fa-layers fa-fw">
+                            <a href="https://github.com/Eduardo-Roots" target="_blank" title="Meu GitHub">
+                                <i class="fa-brands fa-github text-warning"></i>
+                            </a>
+                        </li>
+
+                        <li class="fa-layers fa-fw">
+                            <a href="mailto:eduardo7589985@gmail.com?subject=Ajuda%20com%20o%20Manjardosdeusis.com"
+                                target="_blank" title="Mande-nos um Email">
+                                <i class="fa-solid fa-envelope text-warning"></i>
+                                <span class="fa-layers-counter" style="background:Tomato">1,419</span>
+                            </a>
+                        </li>
+                    </lo>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
